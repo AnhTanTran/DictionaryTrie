@@ -1,6 +1,6 @@
 #include<iostream>
 #include <string>
-//#include <windows.h>
+#include <windows.h>
 using namespace std;
 
 const int ALPHABET_SIZE = 26;
@@ -159,7 +159,7 @@ int main()
 			cin >> key;
 			remove(root, key);
 		}
-		//Sleep(1000);
+		Sleep(1000);
 		cout << endl;
 	}
 	return 0;
